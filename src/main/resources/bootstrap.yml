@@ -1,6 +1,6 @@
 spring:
   application:
-    name: meta-api
+    name: resource-api
   profiles:
     active: default
   cloud:

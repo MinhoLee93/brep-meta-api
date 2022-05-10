@@ -1,10 +1,10 @@
-package com.brep.meta;
+package com.brep.resource;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MetaApplicationTests {
+class ResourceApplicationTests {
 
     @Test
     void contextLoads() {

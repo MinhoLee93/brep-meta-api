@@ -1,4 +1,4 @@
-package com.brep.meta;
+package com.brep.resource;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,10 +13,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @RefreshScope
 @EnableDiscoveryClient
 @EnableFeignClients
-public class MetaApplication {
+public class ResourceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MetaApplication.class, args);
+        SpringApplication.run(ResourceApplication.class, args);
     }
 
 }
